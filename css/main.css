@@ -16,13 +16,14 @@ html {
   font: normal 100%/1.3 sans;
 }
 
-main {
+.banner {
   background: #03003F;
 }
 
 p, span {
   color: #fff;
   font-family: 'Oswald', sans;
+  display: block;
 }
 
 .parent {
