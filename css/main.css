@@ -25,6 +25,7 @@ p, span {
 }
 
 .parent {
+  font-size: 5em;
   font-family: 'Titillium Web', sans;
   background: #03003F;
   position: relative;
@@ -35,6 +36,7 @@ p, span {
 }
 
 .child {
+  font-size: 5em;
   font-family: 'Titillium Web', sans;
   overflow: hidden;
   height: 50.4px;
@@ -47,6 +49,7 @@ p, span {
 }
 
 .parent:hover > .child2 {
+  font-size: 5em;
   font-family: 'Titillium Web', sans;
   transform: translate(.05em, .05em);
   display: block;
@@ -55,6 +58,7 @@ p, span {
 }
 
 .parent:hover > .child3 {
+  font-size: 5em;
   font-family: 'Titillium Web', sans;
   transform: translate(-.05em, -.05em);
   display: block;
@@ -63,6 +67,7 @@ p, span {
 }
 
 .parent:hover > .child4 {
+  font-size: 5em;
   font-family: 'Titillium Web', sans;
   transform: translate(0em, 0em);
   display: block;
