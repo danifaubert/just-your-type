@@ -25,21 +25,18 @@ p, span {
 }
 
 .parent {
-  font-size: 5em;
   font-family: 'Titillium Web', sans;
   background: #03003F;
   position: relative;
   color: #fff;
-  left: 5em;
-  top: 1em;
+  left: 0;
+  top: 0;
   z-index: 1000;
 }
 
 .child {
-  font-size: 5em;
   font-family: 'Titillium Web', sans;
-  overflow: hidden;
-  height: 50.4px;
+
   transition: all .1s ease;
   color: #fff;
   position: absolute;
@@ -49,25 +46,22 @@ p, span {
 }
 
 .parent:hover > .child2 {
-  font-size: 5em;
   font-family: 'Titillium Web', sans;
-  transform: translate(.05em, .05em);
+  transform: translate(.03em, .03em);
   display: block;
   color: #00FFF2;
     z-index: 3;
 }
 
 .parent:hover > .child3 {
-  font-size: 5em;
   font-family: 'Titillium Web', sans;
-  transform: translate(-.05em, -.05em);
+  transform: translate(-.03em, -.03em);
   display: block;
   color: #FF0000;
     z-index: 3;
 }
 
 .parent:hover > .child4 {
-  font-size: 5em;
   font-family: 'Titillium Web', sans;
   transform: translate(0em, 0em);
   display: block;
