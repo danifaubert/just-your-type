@@ -69,8 +69,3 @@ p, span {
   color: #fff;
     z-index: 6;
 }
-
-.parent:hover {
-  color: #fff;
-    z-index: 1000;
-}
