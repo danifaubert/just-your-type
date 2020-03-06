@@ -52,7 +52,7 @@ h1, span {
 
 .parent:hover > .child4 {
   font-family: "Titillium Web", sans;
-  transform: translate(0em, 0em);
+  transform: translate(0, 0);
   display: block;
   color: #fff;
   z-index: 6;
